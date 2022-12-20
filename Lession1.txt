@@ -1,0 +1,26 @@
+array - cấp phát 1 khối bộ nhớ liền kề
+graph - mô hình hóa đồ thì, áp dụng tìm đường...
+
+giải thuật là tập hữu hạn các bước rõ ràng để giải quyết 1 bài toán hoặc 1 lớp bài toán
+
+các tính chất - giải thuật
+
+
+array - cấp phát 1 khối bộ nhớ liền kề
+      - tôc độ truy cấp các phần tử như nhau
+	- truy cập dựa vào con trỏ, lưu địa chỉ ô nhớ đầu của mảng, cộng dần tính vị trí các ô nhớ sau
+
+arraylist - mảng động, khi dùng 70% thì tăng khối nhớ x2
+
+kỹ thuật 2 con trỏ -- 2 con trỏ cùng trỏ vào 1 mảng
+
+arralist - bị giới hạn bởi ram, max vùng nhớ heep jvm khởi chạy --> outofmemery
+
+Interger b = new Interger(3) ==> b bản chất là con trỏ nằm ở heap chỉ đến vùng nhớ stack // auto box & unbox
+int a = 3 => vùng nhớ stack
+
+string có giá trị ko thay đổi được
+string pool nằm trong heap
+String s = ".." ==> s trỏ đến vùng nhớ, chứ ko lưu giá trị
+
+StringBuilder - cấp phát thừa sẵn bộ nhớ, khi chỉnh sửa ko cần tạo 1 vùng nhớ khác nữa
