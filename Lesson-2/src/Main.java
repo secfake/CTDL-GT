@@ -11,8 +11,7 @@ public class Main {
 //        list.remove(random.nextInt(99));
 //        System.out.println(list.get(random.nextInt(98)));
 //        StringBuilder str = new StringBuilder();
-        String[] s = "182.168.100.1".split(".");
-        System.out.println(s[1]);
+
     }
 
 //    public int firstUniqChar(String s) {
