@@ -24,3 +24,10 @@ string pool nằm trong heap
 String s = ".." ==> s trỏ đến vùng nhớ, chứ ko lưu giá trị
 
 StringBuilder - cấp phát thừa sẵn bộ nhớ, khi chỉnh sửa ko cần tạo 1 vùng nhớ khác nữa
+
+bản chất làm cho máy tính chạy nhanh, chính xác nhất
+
+
+
+ai= an-i
+
